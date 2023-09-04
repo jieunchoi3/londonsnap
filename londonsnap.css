@@ -1,0 +1,254 @@
+*{
+  font-family: 'Playfair Display', 'Noto Serif KR';
+  letter-spacing: 2px;
+}
+
+p{font-size: 0.9em; text-align: center;}
+
+body h1{
+  font-weight: 400;
+  text-align: center;
+}
+
+
+/*header*/
+header{
+  background-color: #655345;
+  color: white;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: 0px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+/*nav bar*/
+.navbar {  
+  position: fixed;
+  background-color: #e9e0d9;
+  
+  left: 0;
+  right: 0;
+  margin-top: 77px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.navbar a{
+  color: black;
+  text-decoration: none; 
+  transition: opacity 0.15s;
+}
+
+.navbar a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navbar a:active {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+
+/*behind nav bar image*/
+.behind-navbar-img img {
+  object-fit: cover;
+  scroll-snap-align: start;
+  width: 30%;
+  height: 45%;
+}
+
+.behind-navbar-img {
+  PADDING-top: 110px;
+  display: flex;
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  scroll-snap-type: x mandatory; /* Enable snap points */
+}
+
+#aboutus {
+  
+  padding-top: 110px;
+}
+
+.aboutus-paragraph {
+  text-align: center;
+  padding: 0 30px;
+  
+}
+
+.foryou {
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+.recommendation {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.recommendation li {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .aboutus-paragraph {
+    width: 60%; /* Adjust the width to your preference */
+    margin: 0 auto; /* Center the paragraph horizontally */
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .recommendation {
+    width: 80%; /* Adjust the width to your preference */
+    margin:0 420px; /* Center the paragraph horizontally */
+  }
+}
+
+
+
+@media screen and (min-width: 600px) {
+  #apply {
+    width: 38%; /* Adjust the width to your preference */
+    margin: 0 auto; /* Center the paragraph horizontally */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .behind-navbar-img {
+    width: 150%; /* Adjust the width to your preference */
+    margin: 0 auto; /* Center the paragraph horizontally */
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #notice {
+    width: 60%; /* Adjust the width to your preference */
+    margin: 0 auto; /* Center the paragraph horizontally */
+  }
+}
+
+
+#course {
+  padding-top: 110px;
+}
+.course-steps{
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+.course-steps p {
+  background-color: #e9e0d9;
+  color: #2f2721;
+  border: 1.5px solid #000000;
+  border-collapse: collapse;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+
+.Number {
+  padding-top: 7px;
+}
+
+.bojung {margin-top: -10px; margin-bottom: 20px;}
+
+#notice {
+  padding-top: 110px;
+}
+
+.notice {
+  padding: 0 15px;
+  font-size: 0.9rem;
+  margin: 0 15px;
+}
+
+.notice li {
+  margin-bottom: 15px;
+}
+
+#notice p {
+  padding: 0 15px;
+  margin-top: 40px;
+}
+
+#apply {
+  padding-top: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+#apply p {
+  padding: 0 10px;
+}
+.opentok-p {
+  margin-top: 20px;
+}
+
+.opentok {
+  width: 100px;
+  margin-bottom: 40px;
+  
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer{
+  background-color: #e9e0d9;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  padding: 0; 
+  
+
+ 
+}
+
+footer p{text-align: center;  border-bottom: solid 0.5px black; padding-bottom: 20px; font-size: 20px; padding-top: 10px;}
+.contact-p {
+  border: 0;
+  font-size: 0.9rem;
+  padding-bottom: 0;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contacts img{width: 50px; margin-right: 10px; }
+
+.con { display: flex;
+  flex-direction: row;
+  align-items: center;  margin: 20px;}
+.con a {color: black;}
+.con a:hover{color: beige; cursor: pointer;}
+
+.contacts {display: flex; flex-wrap: wrap; justify-content: center;}
+
+
+
+
+
+
